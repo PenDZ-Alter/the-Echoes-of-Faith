@@ -20,6 +20,8 @@ public class CameraLogic : MonoBehaviour
     public GameObject crosshair;
     bool TPSMode = true, AIMMode = false;
 
+    private bool Kontol = true;
+
     public void CameraModeChanger(bool TPS, bool AIM)
     {
         TPSMode = TPS;
